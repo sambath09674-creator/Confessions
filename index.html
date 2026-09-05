@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confession</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-pink-100">
+    <section
+      class="w-full max-w-lg mx-auto mt-10 p-6 bg-pink-200 rounded-lg shadow-md align-center text-center"
+    >
+      <!-- title -->
+      <h2 class="text-2xl font-bold">I want to ask you something🥺🥺</h2>
+      <!-- Text Show -->
+      <p class="text-lg pb-4">Do you like me?😉</p>
+      <!-- img -->
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEoFVuaoNnhDNyR_tiVlyMOpLw7W--GIYkFflrw9z8SU4sstKJ2UAsO9c&s=10"
+        alt="Cat with flower"
+        class="mx-auto mb-4 rounded-lg"
+      />
+      <!-- Button -->
+      <button
+        class="yes-button bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"
+        onclick="handleYesClick()"
+      >
+        Yes, I like you!
+      </button>
+      <button
+        class="no-button bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded"
+        onclick="handleNoClick()"
+      >
+        No, I don't like you.
+      </button>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
