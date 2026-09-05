@@ -55,5 +55,6 @@ function handleNoClick() {
 // the error is in the line above, it should be `yesButton.style.fontSize = `${currentSize * 1.5}px`;` instead of `yesButton.style.fontSize = ${currentSize * 1.5}px;`
 
 function handleYesClick() {
-  window.location.href = "yes_page.html";
+  window.location.href = "html/yes_page.html";
 }
+// is that location.href correct? it should be `window.location.href = "yes_page.html";` instead of `window.location.href = ".yes_page.html";`
